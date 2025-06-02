@@ -21,6 +21,10 @@ body {
     text-decoration: none;
 }
 
+header {
+    background-color: #000;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -30,9 +34,9 @@ body {
     margin-right: auto;
     padding-left: 130px;
     padding-right: 130px;
-    margin-top: 40px;
     margin-bottom: 140px;
-    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .nav-link {
@@ -40,7 +44,8 @@ body {
     font-weight: 500;
     color: white;
     text-decoration: none;
-
+    display: flex;
+    gap: 8px;
 }
 
 .green {
@@ -201,7 +206,9 @@ body {
     margin-bottom: 100px;
 }
 
-
+.map {
+    width: 57%;
+}
 
 .form {
     background-color: #fff;
@@ -210,7 +217,8 @@ body {
     max-width: 250px;
     text-align: center;
     font-weight: bold;
-    padding: 5%;
+    padding: 40px;
+    width: 100%;
 
 }
 .button {
@@ -229,18 +237,22 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+footer {
+    background-color: #000;
+}
 .container-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 130px;
     padding-right: 130px;
     margin-top: 40px;
-    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .location {
@@ -248,3 +260,67 @@ body {
     color: white;
 }
 
+
+
+@media (max-width: 1060px) {
+
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .nav-links {
+         flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .navbar {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 50px;
+
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .hero-heading {
+        font-size: 2.5rem ;
+        line-height: 3rem;
+    }
+
+    .pricing-heading {
+        font-size: 2.5rem ;
+        line-height: 3rem;
+    }
+
+}
+
+@media (max-width: 500px) { 
+    .foto-principal {
+        max-width: 300px;
+    }
+}
