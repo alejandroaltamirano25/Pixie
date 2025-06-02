@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+  background-color: rgba(67, 175, 221, 0.141);
+  
+
+}
+
+.logo {
+    color: #54BD95;
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 40px;
+    margin-bottom: 140px;
+    background-color: black;
+}
+
+.nav-link {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+
+}
+
+.green {
+    background-color: #54BD95;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.hero-heading  {
+    color: #191A15;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 5rem;
+    margin-bottom: 41px;
+
+}
+
+.primary-button {
+    text-decoration: none;
+    background-color: #54BD95;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 40px;
+
+
+}
+.hero-left {
+    max-width: 555px;
+    
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 121px;
+    
+    
+
+}
+
+.hero-description {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    margin-bottom: 60px;
+
+}
+
+.heading-container{
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+.pricing-heading {
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    margin-bottom: 30px;
+
+}
+
+.pricing-span {
+    display: block;
+}
+
+.pricing-subheading {
+    color: #A6A6A6;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.pricing-card {
+    color: #fff;
+    text-align: center;
+    max-width: 374px;
+    background-color: #54BD95;
+    border-radius: 20px;
+    padding: 40px 20px 25px 20px;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;   
+}
+
+.plan-description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 24px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+
+.card-items {
+    background-color: #F9FAFB;
+    padding: 27px 37px 27px 37px;
+    border-radius: 10px;
+    color: #000;
+    text-align: left;
+}
+
+.list-item { 
+    margin-bottom: 22px;
+
+
+}
+
+.plan-button {
+    text-decoration: none;
+    font-weight: bold;
+    color: #54BD95;
+    background-color: #fff;
+    border-radius: 15px;/*originalmente 20px */
+    padding: 17px 10px; /*originalmente 17px 65px */
+    display: block;
+    text-align: center;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.pricing-cards {
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+.form {
+    background-color: #fff;
+    border: solid 3px black;
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5%;
+
+}
+.button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button:hover {
+    background-color:#54BD95 ;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 40px;
+    background-color: black;
+}
+
+.location {
+    text-decoration: none;
+    color: white;
+}
+
